@@ -1,22 +1,23 @@
 public class Author {
-    private Integer name;
-    private Integer surname;
+    private String name;
+    private String surname;
     private String birthDate;
     private String placeBirth;
+    private String city;
 
-    public Integer getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(Integer name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public Integer getSurname() {
+    public String getSurname() {
         return surname;
     }
 
-    public void setSurname(Integer surname) {
+    public void setSurname(String surname) {
         this.surname = surname;
     }
 
@@ -34,5 +35,13 @@ public class Author {
 
     public void setPlaceBirth(String placeBirth) {
         this.placeBirth = placeBirth;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 }

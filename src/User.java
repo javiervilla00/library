@@ -1,16 +1,16 @@
 public class User {
-    private Integer dni;
+    private String dni;
     private String name;
     private String surname;
     private String phone;
     private String adress;
     private String poblation;
 
-    public Integer getDni() {
+    public String getDni() {
         return dni;
     }
 
-    public void setDni(Integer dni) {
+    public void setDni(String dni) {
         this.dni = dni;
     }
 
